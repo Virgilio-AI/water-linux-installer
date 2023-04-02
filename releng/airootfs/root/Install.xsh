@@ -175,7 +175,7 @@ archinstall
 
 
 sprint("===== copying the files that will need in our installation")
-cp -r InstallChroot.xonsh /mnt/archinstall
+cp -r InstallChroot.xsh /mnt/archinstall
 
 
 # install necessary packages that we need to use the script
