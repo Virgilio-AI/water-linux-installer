@@ -157,6 +157,7 @@ print_cool("This is the official Water Linux installer.","green")
 
 # configure the Internet
 print_cool("you will need to have internet connection to install water linux","blue")
+systemctl start networkmanager &
 nmtui
 stdscr.clear()
 
